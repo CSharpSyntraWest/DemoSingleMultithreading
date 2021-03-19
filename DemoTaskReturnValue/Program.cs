@@ -8,7 +8,7 @@ namespace DemoTaskReturnValue
         static void Main(string[] args)
         {
             Console.WriteLine("Hoofd-thread opgestart");
-            Task<double> task1 = Task.Run(() =>
+            Task<int> task1 = Task.Run(() =>
             {
                 return BerekenSom(10);
             });
@@ -17,9 +17,9 @@ namespace DemoTaskReturnValue
             Console.ReadKey();
         }
 
-        private static double BerekenSom(int getal)
+        private static int BerekenSom(int getal)
         {
-            double som = 0;
+            int som = 0;
             for (int teller = 1; teller <= getal; teller++)
             {
                 som += teller;  
