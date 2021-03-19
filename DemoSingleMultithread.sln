@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoTaskResultIsComplexType
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoTaskContinueWith", "DemoTaskContinueWith\DemoTaskContinueWith.csproj", "{46656869-77E2-4FDB-BD9C-6AA7A1DD02E0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoTaskContueWith2", "DemoTaskContueWith2\DemoTaskContueWith2.csproj", "{0EFE1A2E-9FFF-4B6F-947A-98314669ED48}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{46656869-77E2-4FDB-BD9C-6AA7A1DD02E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46656869-77E2-4FDB-BD9C-6AA7A1DD02E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46656869-77E2-4FDB-BD9C-6AA7A1DD02E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EFE1A2E-9FFF-4B6F-947A-98314669ED48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EFE1A2E-9FFF-4B6F-947A-98314669ED48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EFE1A2E-9FFF-4B6F-947A-98314669ED48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EFE1A2E-9FFF-4B6F-947A-98314669ED48}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
